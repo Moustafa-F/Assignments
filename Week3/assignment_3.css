@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'soho-gothic-pro'; /*a name to be used later*/
+    src: url('Assets/SohoGothicPro-Regular.ttf'); /*URL to font*/
+}
+
+video{
+    position: absolute;
+    height: 80vh;
+    width: 100vw;
+    object-fit: cover;
+}
+
+body, html{
+    margin: 0%;
+    padding: 0%;
+}
+
+header{
+    position: absolute;
+    height: 80%;
+    width: 100%;
+}
+
+
+
+#nav_list{
+    list-style-type: none;
+    margin: 0;
+    padding-inline: 20%;
+    overflow: hidden;
+    position: absolute;
+    font-family: soho-gothic-pro,Arial,sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    
+}
+
+#nav_list li a{
+    text-decoration: none;
+    color: beige;
+}
+
+
+
+nav ul li{
+    position: relative;
+    width: 12%;
+    float: left;
+}
+
+.nav_text{
+    display: block;
+    padding-top: 15%;
+    text-align: center;
+}
+
+ul img{
+    width:100%;
+}
